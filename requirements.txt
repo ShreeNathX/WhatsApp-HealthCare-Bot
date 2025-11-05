@@ -1,0 +1,7 @@
+Flask
+twilio
+google-genai
+python-dotenv
+langdetect
+requests
+backoff
