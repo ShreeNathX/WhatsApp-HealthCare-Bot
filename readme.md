@@ -53,19 +53,19 @@ Follow these steps to get your AI Health Assistant running locally and connected
     Copy and paste the following template into your **`.env`** file. **You must replace the placeholder values with your actual keys.**
 
     ```env
-# 🔑 OpenAI API Key for AI Reasoning and Voice Transcription
-# Get yours from https://platform.openai.com
-OPENAI_API_KEY=YOUR_OPENAI_API_KEY
-OPENAI_MODEL=gpt-3.5-turbo
+    # 🔑 OpenAI API Key for AI Reasoning and Voice Transcription
+    # Get yours from https://platform.openai.com
+    OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+    OPENAI_MODEL=gpt-3.5-turbo
 
-# 📞 Twilio Credentials (Required for WhatsApp Messaging)
-TWILIO_ACCOUNT_SID=YOUR_TWILIO_ACCOUNT_SID
-TWILIO_AUTH_TOKEN=YOUR_TWILIO_AUTH_TOKEN
+    # 📞 Twilio Credentials (Required for WhatsApp Messaging)
+    TWILIO_ACCOUNT_SID=YOUR_TWILIO_ACCOUNT_SID
+    TWILIO_AUTH_TOKEN=YOUR_TWILIO_AUTH_TOKEN
 
-# Flask Configuration (Keep these default)
-FLASK_ENV=development
-FLASK_DEBUG=1
-PORT=5000
+    # Flask Configuration (Keep these default)
+    FLASK_ENV=development
+    FLASK_DEBUG=1
+    PORT=5000
     ```
 
 ### 2️⃣ Ngrok Setup (Create a Public Link)
@@ -124,99 +124,35 @@ Send a message, an emergency word, or even a **voice note** to the Twilio Sandbo
 * **Non-Diagnostic:** This tool is an assistant for **triage and safety**; it is **not a substitute for a doctor**.
 ---
 
-# 🚀 Future Enhancements — WhatsApp AI Health Assistant (Powered by OpenAI)
+## 🚀 Future Enhancements — WhatsApp AI Health Assistant
 
 This document outlines planned improvements and advanced features for future versions of the **AI Health Assistant**.  
 The goal is to make the system more intelligent, scalable, and medically reliable while maintaining accessibility through **WhatsApp**.
 
 ---
 
-## 🧠 1. Advanced AI Intelligence
-
-- **Context Memory:**  
-  Implement long-term conversation memory for personalized health interactions.  
-  Example — The assistant remembers previous symptoms and follow-ups across multiple sessions.
-
-- **Symptom Severity Scoring:**  
-  Introduce a health risk scoring model using probabilistic AI or small neural networks to detect mild, moderate, and severe symptom patterns.
-
-- **Medical Ontology Integration:**  
-  Leverage standardized health datasets (like **SNOMED CT** or **ICD-10**) for structured and accurate symptom classification.
-
----
-
-## 🗺️ 2. Smart Location & Hospital Integration
-
-- **Google Maps / Places API:**  
-  Automatically detect the user’s city or location (from chat metadata or user input) and show the **nearest verified hospitals or clinics**.
-
-- **Real-time Emergency Routing:**  
-  Display route maps to emergency centers based on GPS coordinates shared by the user.
-
-- **Doctor Specialization Recommendation:**  
-  Suggest specific **doctors or specialists** (Cardiologist, Neurologist, etc.) based on detected symptoms.
-
----
-
-## 🩺 3. Data-Driven Health Insights
-
-- **Symptom Trend Dashboard:**  
-  Build a backend dashboard that shows trending diseases, common symptoms, and seasonal health patterns in specific regions.
-
-- **Anonymous Data Collection:**  
-  (With user consent) aggregate anonymized symptom data to improve healthcare resource planning and analytics.
-
----
-
-## 💬 4. Enhanced Communication & UX
-
-- **Voice-to-Voice Conversations:**  
-  Integrate **OpenAI’s TTS (Text-to-Speech)** for natural two-way voice-based interactions.
-
-- **Multimedia Health Education:**  
-  Send visual infographics or short videos explaining first-aid steps and preventive care in regional languages.
-
-- **Emotionally Aware Responses:**  
-  Use sentiment analysis to adapt tone — calm during emergencies, friendly during routine health checks.
-
----
-
-## 🧩 5. Architecture & Performance
-
-- **Cloud Deployment:**  
-  Migrate to **AWS / GCP / Azure** for scalability and 24×7 uptime.
-
-- **Database Integration:**  
-  Add **MongoDB** or **PostgreSQL** to store chat history, analytics, and health queries for research.
-
-- **Caching System:**  
-  Implement **Redis** or **Memcached** to handle high-volume message traffic efficiently.
-
----
-
-## 🔒 6. Security and Compliance
-
-- **End-to-End Encryption:**  
-  Ensure secure transmission of sensitive chat data between users and servers.
-
-- **HIPAA / GDPR Compliance:**  
-  Follow privacy laws for health-related data, ensuring all user data is processed securely and ethically.
-
-- **User Consent Management:**  
-  Add consent-based data storage and retrieval mechanisms for full transparency.
-
----
-
-## 🌍 7. Community and Expansion
-
-- **Multilingual Expansion:**  
-  Extend support to 15+ Indian and global languages with cultural and linguistic adaptation.
-
-- **Partnership with Local Health Authorities:**  
-  Collaborate with rural hospitals and NGOs to deliver verified medical information through WhatsApp.
-
-- **Offline Mode (Future Research):**  
-  Investigate low-bandwidth or SMS-based fallback systems for areas with limited internet access.
+| Area | Planned Feature | Description |
+|:------|:----------------|:-------------|
+| 🧠 **AI Intelligence** | Context Memory | Remember previous chats for personalized responses. |
+|  | Severity Scoring | Classify symptoms as mild, moderate, or severe. |
+|  | Medical Ontology | Use datasets like **SNOMED CT** or **ICD-10** for accurate symptom mapping. |
+| 🗺️ **Location & Hospitals** | Google Maps Integration | Suggest nearby verified hospitals or clinics. |
+|  | Emergency Routing | Provide real-time routes to emergency centers. |
+|  | Specialist Suggestion | Recommend doctors based on detected symptoms. |
+| 🩺 **Health Insights** | Trend Dashboard | Track regional symptom and disease trends. |
+|  | Anonymous Analytics | Use anonymized data for healthcare insights. |
+| 💬 **Communication & UX** | Voice Interaction | Add **OpenAI TTS** for two-way voice communication. |
+|  | Health Education | Send infographics or videos for first-aid and prevention. |
+|  | Emotion Awareness | Adjust tone based on user sentiment. |
+| 🧩 **Architecture** | Cloud Hosting | Deploy on **AWS / GCP / Azure** for reliability. |
+|  | Database Integration | Store chat and health data using **MongoDB / PostgreSQL**. |
+|  | Caching System | Use **Redis** for fast message handling. |
+| 🔒 **Security** | Encryption | Ensure end-to-end chat data protection. |
+|  | Compliance | Follow **HIPAA / GDPR** health data standards. |
+|  | Consent System | Add user consent for data usage. |
+| 🌍 **Community Expansion** | Multilingual Support | Extend to 15+ Indian and global languages. |
+|  | Partnerships | Collaborate with hospitals & NGOs. |
+|  | Offline Mode | Explore SMS or low-bandwidth operation. |
 
 ---
 
@@ -231,12 +167,14 @@ Through future AI advancements, real-time health insights, and verified medical 
 ## 👨‍💻 Author and Team
 **Shree Nath Mahato (Leader)**  
 📧 Contact: [shreenath.ventures17@gmail.com](mailto:shreenath.ventures17@gmail.com)
+💬 For any queries, suggestions, or collaborations, feel free to reach out via email.
+
 
 ### Team Members
 * **Arjun Chaudhary** - [GitHub Profile](https://github.com/Arzunchy).
 * **Aditya Singh Baghel** – [GitHub Profile](https://github.com/ArBaghel).
-
 * **Suraj Kumar** – [GitHub Profile](https://github.com/Suraj110905).
+
 
 
 
