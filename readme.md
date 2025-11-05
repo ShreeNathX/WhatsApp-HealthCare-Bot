@@ -166,14 +166,16 @@ Through future AI advancements, real-time health insights, and verified medical 
 
 ## 👨‍💻 Author and Team
 **Shree Nath Mahato (Leader)**  
-📧 Contact: [shreenath.ventures17@gmail.com](mailto:shreenath.ventures17@gmail.com)
-💬 For any queries, suggestions, or collaborations, feel free to reach out via email.
+📧 Contact: [shreenath.ventures17@gmail.com](mailto:shreenath.ventures17@gmail.com).<br>
+💬  For any queries, suggestions, or collaborations, feel free to reach out via email.
+
 
 
 ### Team Members
 * **Arjun Chaudhary** - [GitHub Profile](https://github.com/Arzunchy).
 * **Aditya Singh Baghel** – [GitHub Profile](https://github.com/ArBaghel).
 * **Suraj Kumar** – [GitHub Profile](https://github.com/Suraj110905).
+
 
 
 
