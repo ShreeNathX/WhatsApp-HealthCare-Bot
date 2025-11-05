@@ -1,7 +1,7 @@
-Flask
-twilio
-google-genai
+flask
+openai>=1.0.0
 python-dotenv
-langdetect
+twilio
 requests
+langdetect
 backoff
