@@ -125,7 +125,6 @@ Send a message, an emergency word, or even a **voice note** to the Twilio Sandbo
 ---
 
 ## 👨‍💻 Author and Team
-## 👨‍💻 Author and Team
 **Shree Nath Mahato (Leader)**  
 📧 Contact: [shreenath.ventures17@gmail.com](mailto:shreenath.ventures17@gmail.com)
 
@@ -134,5 +133,6 @@ Send a message, an emergency word, or even a **voice note** to the Twilio Sandbo
 * **Aditya Singh Baghel** – [GitHub Profile](https://github.com/ArBaghel).
 
 * **Suraj Kumar** – [GitHub Profile](https://github.com/Suraj110905).
+
 
 
