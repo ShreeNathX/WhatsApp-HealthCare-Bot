@@ -8,12 +8,12 @@ A highly accessible and secure conversational AI assistant for **rural healthcar
 
 This AI is designed to act as a **safe, non-diagnostic** health assistant.
 
-🤒 **Symptom Triage:** Analyzes complex symptoms and provides immediate, safe first aid and home care advice.
-🧠 **Gemini Integration:** Utilizes **Gemini 2.5 Flash** for highly contextual, safe reasoning and to maintain conversation memory.
-🎙️ **Voice Message Support (ASR):** Uses Gemini's multimodal power to **transcribe voice notes** into text, ensuring accessibility for all users.
-🗣 **Multilingual Support:** Auto-detects and converses in **English, Hindi, Marathi, and Bengali**.
-🚨 **Emergency Handoff:** Instantly recognizes critical keywords (e.g., "chest pain," "saans lene me dikkat") and directs the user to call **108** (Ambulance/Emergency).
-🏥 **Referral Link:** Every response includes a **localized Google Maps link** to find the nearest health center immediately.
+* 🤒 **Symptom Triage:** Analyzes complex symptoms and provides immediate, safe first aid and home care advice.
+* 🧠 **Gemini Integration:** Utilizes **Gemini 2.5 Flash** for highly contextual, safe reasoning and to maintain conversation memory.
+* 🎙️ **Voice Message Support (ASR):** Uses Gemini's multimodal power to **transcribe voice notes** into text, ensuring accessibility for all users.
+* 🗣 **Multilingual Support:** Auto-detects and converses in **English, Hindi, Marathi, and Bengali**.
+* 🚨 **Emergency Handoff:** Instantly recognizes critical keywords (e.g., "chest pain," "saans lene me dikkat") and directs the user to call **108** (Ambulance/Emergency).
+* 🏥 **Referral Link:** Every response includes a **localized Google Maps link** to find the nearest health center immediately.
 
 ---
 
