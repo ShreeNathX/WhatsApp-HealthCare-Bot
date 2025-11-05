@@ -38,7 +38,7 @@ Follow these steps to get your AI Health Assistant running locally and connected
 
 1.  **Clone the Code:** Open your terminal or command prompt and run:
     ```bash
-    git clone [https://github.com/ShreeNath67/WhatsApp-HealthCare-Bot.git](https://github.com/ShreeNath67/WhatsApp-HealthCare-Bot.git)
+    git clone [https://github.com/ShreeNathX/WhatsApp-HealthCare-Bot.git](https://github.com/ShreeNathX/WhatsApp-HealthCare-Bot.git)
     cd whatsapp-healthcare-bot
     ```
 
@@ -131,4 +131,5 @@ Send a message, an emergency word, or even a **voice note** to the Twilio Sandbo
 ### Team Members
 * **Arjun Chaudhary** - [GitHub Profile](https://github.com/Arzunchy).
 * **Aditya Singh Baghel** – [GitHub Profile](https://github.com/ArBaghel).
+
 * **Suraj Kumar** – [GitHub Profile](https://github.com/Suraj110905).
